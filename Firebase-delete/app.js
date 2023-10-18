@@ -5,7 +5,7 @@ const firebase = require('firebase/database')
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://curd-798f5-default-rtdb.firebaseio.com"
+  databaseURL: "Your are database link"
 });
 
 const express = require('express');
